@@ -1,7 +1,14 @@
 <script type="module">
-  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.0/dist/web.js';
+  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.0/dist/web.js'
 
-  Typebot.initStandard({ typebot: "lara-cardoso-pv-copy-ni52t1l" });
+  Typebot.initBubble({
+    typebot: "lara-cardoso-pv-copy-ni52t1l",
+    theme: {
+      button: { backgroundColor: "#128C7E" },
+      chatWindow: {
+        backgroundColor:
+          "https://s3.fr-par.scw.cloud/typebot/public/typebots/cli88mae30010mh0f0yzjqn48/background?v=1685470080750",
+      },
+    },
+  });
 </script>
-
-<typebot-standard style="height: 100vh; "></typebot-standard>
